@@ -1,0 +1,166 @@
+html body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 100%;
+}
+
+ol {
+	padding: auto;
+}
+
+li {
+	font-size: 0.7em;
+	text-transform: uppercase;
+	letter-spacing: 0.025em;
+	line-height: 1.5em;
+	text-decoration: none;
+}
+
+
+
+/*------FLECHA------*/
+
+/*.center {
+	position: relative;
+	top: 12em; 	
+	left: 12em;
+}*/
+
+.arrow-up {
+/*	background-color: #888;*/
+	width: 0em;
+	height: 0em;
+/*	border-top: 6em solid #ccc;*/
+	border-right: 1.5em solid transparent;
+	border-bottom: 1.5em solid teal;
+	border-left: 1.5em solid transparent;
+}
+
+
+
+.arrow-body {
+	background-color: teal;
+	height: 4em; 	
+	width: 1em;
+	position: relative;
+	top: 1em; 	
+	right: 0.5em;
+
+}
+
+
+
+
+
+/*------ROTAR------*/
+
+.rotate_0{
+	-ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+	transform: rotate(0deg);
+	position: fixed;
+	top: 15%;
+	left: 50%;
+
+}
+
+.rotate_45{
+	-ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+	transform: rotate(45deg);
+	position: fixed;
+	top: 20%;
+	left: 80%;
+
+}
+
+.rotate_90{
+	-ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+	transform: rotate(90deg);
+	position: fixed;
+	top: 50%;
+	left: 85%;
+
+}
+
+.rotate_135{
+	-ms-transform: rotate(135deg); /* IE 9 */
+    -webkit-transform: rotate(135deg); /* Chrome, Safari, Opera */
+	transform: rotate(135deg);
+	position: fixed;
+	top: 80%;
+	left: 80%;
+
+}
+
+.rotate_180{
+	-ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+	transform: rotate(180deg);
+	position: fixed;
+	top: 85%;
+	left: 50%;
+
+}
+
+
+.rotate_225{
+	-ms-transform: rotate(225deg); /* IE 9 */
+    -webkit-transform: rotate(225deg); /* Chrome, Safari, Opera */
+	transform: rotate(225deg);
+	position: fixed;
+	top: 80%;
+	left: 20%;
+
+}
+
+.rotate_270{
+	-ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+	transform: rotate(270deg);
+	position: fixed;
+	top: 50%;
+	left: 15%;
+
+}
+
+.rotate_315{
+	-ms-transform: rotate(315deg); /* IE 9 */
+    -webkit-transform: rotate(315deg); /* Chrome, Safari, Opera */
+	transform: rotate(315deg);
+	position: fixed;
+	top: 20%;
+	left: 20%;
+
+}
+
+
+/**********************
+		CÍRCULO
+***********************/
+
+
+.circle_up_left {
+	background-color: #ddd;
+	width: 6em;
+	height: 6em;
+	border-radius: 50%;
+	position: fixed;
+	top: 5%;
+	left: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
